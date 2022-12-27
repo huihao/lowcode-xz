@@ -77,5 +77,12 @@
     "isComponentLibrary": true,
     "materialSchema": "https://unpkg.com/@xz/xz-common@0.0.1/build/lowcode/assets-prod.json"
   },
-  "repository": "https://github.com/huihao/lowcode-xz.git"
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "http",
+    "url": "https://github.com/huihao/lowcode-xz.git"
+  }
 }
