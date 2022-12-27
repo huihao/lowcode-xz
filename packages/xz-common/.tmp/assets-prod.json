@@ -1,21 +1,21 @@
 {
   "packages": [
     {
-      "package": "xz-common",
+      "package": "@xz/xz-common",
       "version": "0.0.1",
       "library": "BizComps",
       "urls": [
-        "https://unpkg.com/xz-common@0.0.1/build/lowcode/render/default/view.js",
-        "https://unpkg.com/xz-common@0.0.1/build/lowcode/render/default/view.css"
+        "https://unpkg.com/@xz/xz-common@0.0.1/build/lowcode/render/default/view.js",
+        "https://unpkg.com/@xz/xz-common@0.0.1/build/lowcode/render/default/view.css"
       ],
       "editUrls": [
-        "https://unpkg.com/xz-common@0.0.1/build/lowcode/view.js",
-        "https://unpkg.com/xz-common@0.0.1/build/lowcode/view.css"
+        "https://unpkg.com/@xz/xz-common@0.0.1/build/lowcode/view.js",
+        "https://unpkg.com/@xz/xz-common@0.0.1/build/lowcode/view.css"
       ],
       "advancedUrls": {
         "default": [
-          "https://unpkg.com/xz-common@0.0.1/build/lowcode/render/default/view.js",
-          "https://unpkg.com/xz-common@0.0.1/build/lowcode/render/default/view.css"
+          "https://unpkg.com/@xz/xz-common@0.0.1/build/lowcode/render/default/view.js",
+          "https://unpkg.com/@xz/xz-common@0.0.1/build/lowcode/render/default/view.css"
         ]
       },
       "advancedEditUrls": {}
@@ -23,18 +23,18 @@
   ],
   "components": [
     {
-      "exportName": "XzCommonMeta",
+      "exportName": "XzXzCommonMeta",
       "npm": {
-        "package": "xz-common",
+        "package": "@xz/xz-common",
         "version": "0.0.1"
       },
-      "url": "https://unpkg.com/xz-common@0.0.1/build/lowcode/meta.js",
+      "url": "https://unpkg.com/@xz/xz-common@0.0.1/build/lowcode/meta.js",
       "urls": {
-        "default": "https://unpkg.com/xz-common@0.0.1/build/lowcode/meta.js"
+        "default": "https://unpkg.com/@xz/xz-common@0.0.1/build/lowcode/meta.js"
       },
       "advancedUrls": {
         "default": [
-          "https://unpkg.com/xz-common@0.0.1/build/lowcode/meta.js"
+          "https://unpkg.com/@xz/xz-common@0.0.1/build/lowcode/meta.js"
         ]
       }
     }
