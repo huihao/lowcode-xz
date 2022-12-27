@@ -1,5 +1,5 @@
 {
-  "name": "xz-common",
+  "name": "@xz/xz-common",
   "version": "0.0.1",
   "description": "xz-common",
   "main": "lib/index.js",
@@ -75,6 +75,6 @@
   },
   "componentConfig": {
     "isComponentLibrary": true,
-    "materialSchema": "https://unpkg.com/xz-common@0.1.0/build/lowcode/assets-prod.json"
+    "materialSchema": "https://unpkg.com/xz-common@0.0.1/build/lowcode/assets-prod.json"
   }
 }
