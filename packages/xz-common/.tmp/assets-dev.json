@@ -2,7 +2,7 @@
   "packages": [
     {
       "package": "xz-common",
-      "version": "0.1.0",
+      "version": "0.0.1",
       "library": "BizComps",
       "urls": [
         "./render/default/view.js",
@@ -26,7 +26,7 @@
       "exportName": "XzCommonMeta",
       "npm": {
         "package": "xz-common",
-        "version": "0.1.0"
+        "version": "0.0.1"
       },
       "url": "./meta.js",
       "urls": {

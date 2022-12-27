@@ -78,7 +78,7 @@ const type = 'component';
 if (devMode && type !== 'setter') {
   assets.packages.push({
     "package": "xz-common",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "library": "BizComps",
     "urls": ["build/lowcode/view.js","build/lowcode/view.css"],
     "editUrls": ["build/lowcode/view.js","build/lowcode/view.css"],
