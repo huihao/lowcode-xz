@@ -6,7 +6,8 @@
     "description": "xz-common",
     "jsLibrary": 1,
     "componentLibrary": 1,
-    "platform": 1
+    "platform": 1,
+    "repository": "git@github.com:huihao/lowcode-xz.git"
   },
   "components": [
     {

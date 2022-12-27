@@ -2,5 +2,6 @@
   "name": "root",
   "devDependencies": {
     "lerna": "^5.1.4"
-  }
+  },
+  "repository": "https://github.com/huihao/lowcode-xz.git"
 }

@@ -77,5 +77,5 @@
     "isComponentLibrary": true,
     "materialSchema": "https://unpkg.com/@xz/xz-common@0.0.1/build/lowcode/assets-prod.json"
   },
-  "repository": "git@github.com:huihao/lowcode-xz.git"
+  "repository": "https://github.com/huihao/lowcode-xz.git"
 }
