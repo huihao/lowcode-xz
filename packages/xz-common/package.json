@@ -27,6 +27,7 @@
   "keywords": [
     "xz"
   ],
+  "author": "wuhuihao@qq.com",
   "license": "MIT",
   "husky": {
     "hooks": {
