@@ -27,7 +27,6 @@
   "keywords": [
     "xz"
   ],
-  "author": "xz",
   "license": "MIT",
   "husky": {
     "hooks": {
