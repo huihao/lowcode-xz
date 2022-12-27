@@ -1,6 +1,6 @@
 {
   "name": "xz-common",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "xz-common",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -40,9 +40,9 @@
     "**/*.{css,scss,less,acss}": "f2elint exec stylelint"
   },
   "peerDependencies": {
+    "moment": "latest",
     "react": "^16.x",
-    "react-dom": "^16.x",
-    "moment": "latest"
+    "react-dom": "^16.x"
   },
   "devDependencies": {
     "@alib/build-scripts": "^0.1.3",
