@@ -7,7 +7,10 @@
     "jsLibrary": 1,
     "componentLibrary": 1,
     "platform": 1,
-    "repository": "https://github.com/huihao/lowcode-xz.git"
+    "repository": {
+      "type": "http",
+      "url": "https://github.com/huihao/lowcode-xz.git"
+    }
   },
   "components": [
     {
