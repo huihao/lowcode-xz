@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { CommoditySelector } from 'xz-common';
+import { CommoditySelector } from '@wuhuihao/xz-common';
 
 export default { title: 'CommoditySelector' };
 

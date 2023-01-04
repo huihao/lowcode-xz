@@ -1,8 +1,8 @@
 {
   "meta": {
-    "npm": "@xz/xz-common",
+    "npm": "@wuhuihao/xz-common",
     "version": "0.0.1",
-    "name": "@xz/xz-common",
+    "name": "@wuhuihao/xz-common",
     "description": "xz-common",
     "jsLibrary": 1,
     "componentLibrary": 1,

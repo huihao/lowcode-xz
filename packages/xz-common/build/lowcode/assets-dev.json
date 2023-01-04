@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "package": "@xz/xz-common",
+      "package": "@wuhuihao/xz-common",
       "version": "0.0.1",
       "library": "BizComps",
       "urls": [
@@ -23,9 +23,9 @@
   ],
   "components": [
     {
-      "exportName": "XzXzCommonMeta",
+      "exportName": "WuhuihaoXzCommonMeta",
       "npm": {
-        "package": "@xz/xz-common",
+        "package": "@wuhuihao/xz-common",
         "version": "0.0.1"
       },
       "url": "./meta.js",

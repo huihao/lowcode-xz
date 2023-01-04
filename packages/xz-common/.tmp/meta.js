@@ -1,3 +1,4 @@
+import AttrInputMeta from '/Users/huihao/open/xz-widgets/packages/xz-common/lowcode/attr-input/meta'
 import CommoditySelectorMeta from '/Users/huihao/open/xz-widgets/packages/xz-common/lowcode/commodity-selector/meta'
 
 const componentCategorySort = {};
@@ -78,7 +79,7 @@ function generateComponentList(components) {
   return componentList;
 }
 
-function fillRealVersion(meta, packageName = '@xz/xz-common', version = '0.0.1', basicLibraryVersion={"@alifd/next":"1.25.23","@alifd/meet":"2.6.3","antd":"4.17.3"}) {
+function fillRealVersion(meta, packageName = '@wuhuihao/xz-common', version = '0.0.1', basicLibraryVersion={"@alifd/next":"1.25.23","@alifd/meet":"2.6.3","antd":"4.17.3"}) {
   if (!meta || !version) {
     return meta;
   }
@@ -100,7 +101,7 @@ function fillRealVersion(meta, packageName = '@xz/xz-common', version = '0.0.1',
   return meta;
 }
 
-const componentMetas = [CommoditySelectorMeta];
+const componentMetas = [AttrInputMeta,CommoditySelectorMeta];
 const components = [];
 const npmInfo = {};
 componentMetas.forEach(meta => {
@@ -164,5 +165,5 @@ export { components, componentList };
 const execCompile = !!true;
 
 if (!execCompile) {
-  window.XzXzCommonMeta = { components, componentList };
+  window.WuhuihaoXzCommonMeta = { components, componentList };
 }

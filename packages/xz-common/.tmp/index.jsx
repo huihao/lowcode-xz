@@ -77,7 +77,7 @@ const type = 'component';
 
 if (devMode && type !== 'setter') {
   assets.packages.push({
-    "package": "@xz/xz-common",
+    "package": "@wuhuihao/xz-common",
     "version": "0.0.1",
     "library": "BizComps",
     "urls": ["build/lowcode/view.js","build/lowcode/view.css"],
@@ -92,7 +92,7 @@ if (devMode && type !== 'setter') {
   assets.ignoreComponents = {};
 
   assets.components = [{
-    exportName: 'XzXzCommonMeta',
+    exportName: 'WuhuihaoXzCommonMeta',
     url: metaType ? `/meta.${metaType}.js` : '/meta.js',
   }];
 }
